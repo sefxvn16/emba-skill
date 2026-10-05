@@ -1,12 +1,12 @@
 # Tầng rà soát sâu: đề tài, luận văn, báo cáo cuối khóa
 
-Sử dụng `review-mode.md` làm khung chính: rà soát theo 5 phạm trù, áp dụng thang mức độ và không tự viết lại bài. File này bổ sung các phép kiểm chuyên sâu và quy định cách trình bày kết quả ở tầng sâu. Mỗi phép kiểm được xếp vào đúng phạm trù tương ứng, không tạo thêm một hệ thống báo cáo riêng.
+Sử dụng `review-mode.md` làm khung chính: rà soát theo 5 phạm trù, áp dụng thang mức độ và không tự viết lại bài. File này bổ sung các phép kiểm chuyên sâu và quy định cách trình bày kết quả ở tầng sâu. Mỗi phép kiểm được xếp vào đúng phạm trù tương ứng, không tạo thêm một hệ thống báo cáo riêng. Thứ tự các mục dưới đây chỉ để trình bày; trọng tâm vẫn như `review-mode.md`: LẬP là phần dành nhiều công nhất.
 
 Ý tưởng phương pháp tham khảo một phần từ Academic Research Skills của Cheng-I Wu, giấy phép CC BY-NC 4.0. Được chỉnh sửa lại để phù hợp với nhu cầu và tư duy làm việc của bản thân tác giả và bối cảnh học tập.
 
 ## 0. Trước khi rà
 
-**Chuẩn chấm.** Xác định bài được đánh giá theo chuẩn nào: rubric, yêu cầu của giảng viên, tiêu chí của hội đồng hoặc tiêu chí do người dùng đưa ra. Nếu chưa rõ thì hỏi một câu. Nếu cả chuẩn chấm và chế độ rà soát ở Bước 0b đều chưa rõ, gộp thành một lần hỏi. Nếu người dùng không đưa ra chuẩn nào, vẫn rà từng khâu nhưng bỏ mục 5a (kết luận tổng thể) và nói rõ lý do: không có chuẩn thì không đủ căn cứ để kết luận bài "đạt" hay "chưa đạt".
+**Chuẩn chấm.** Xác định bài được đánh giá theo chuẩn nào: rubric, yêu cầu của giảng viên, tiêu chí của hội đồng hoặc tiêu chí do người dùng đưa ra. Nếu chưa rõ thì hỏi một câu. Nếu chuẩn chấm và việc chọn chế độ ở Bước 0b đều chưa rõ, gộp thành một lần hỏi. Nếu người dùng không đưa ra chuẩn nào, vẫn rà từng khâu nhưng bỏ mục 5a (kết luận tổng thể) và nói rõ lý do: không có chuẩn thì không đủ căn cứ để kết luận bài "đạt" hay "chưa đạt".
 
 **Trạng thái bản thảo.** Bản nháp thường cho thấy những chỗ tác giả vẫn còn vướng, chẳng hạn như ghi chú TODO, phương án chưa chọn trong ngoặc, câu tự hỏi, bình luận của người cùng làm, một mục được sửa kỹ hơn hẳn các mục khác hoặc bảng/hình mới chỉ để chỗ trống. Nếu file có những dấu hiệu này thì đọc cả chúng, bằng công cụ phù hợp với môi trường đang chạy.
 
@@ -23,7 +23,7 @@ Sử dụng `review-mode.md` làm khung chính: rà soát theo 5 phạm trù, á
 - Đóng góp bài thực sự tạo ra so với những gì ngành đã biết;
 - Nếu là một người đọc khó tính, họ sẽ tóm tắt đóng góp của bài trong một câu như thế nào?
 
-Khoảng cách giữa ba phần này thường là điểm cần chú ý nhất. Xác định bài đang lấp loại khoảng trống nào: lý thuyết (các cách giải thích hiện có chưa giải thích được hiện tượng), bằng chứng (chưa có ai đo hoặc kiểm chứng), hay bối cảnh (đã được kiểm chứng ở nơi khác nhưng chưa được kiểm tra trong bối cảnh này). Các nhãn này chỉ để mô tả, không dùng để chấm điểm. Với đề tài EMBA, đóng góp về bối cảnh và ứng dụng thường là phù hợp, miễn là bài nói rõ điều đó và chỉ ra giá trị đối với người ra quyết định. Vấn đề là khi bài tự nhận có đóng góp về lý thuyết nhưng thực tế chỉ bổ sung bằng chứng ở một bối cảnh mới.
+Khoảng cách giữa ba phần này là phát hiện chính. Xác định bài đang lấp loại khoảng trống nào: lý thuyết (các cách giải thích hiện có chưa giải thích được hiện tượng), bằng chứng (chưa có ai đo hoặc kiểm chứng), hay bối cảnh (đã được kiểm chứng ở nơi khác nhưng chưa được kiểm tra trong bối cảnh này). Các nhãn này chỉ để mô tả, không dùng để chấm điểm. Với đề tài EMBA, đóng góp về bối cảnh và ứng dụng chấp nhận được, miễn là bài nói rõ điều đó và chỉ ra giá trị đối với người ra quyết định. Vấn đề là khi bài tự nhận có đóng góp về lý thuyết nhưng thực tế chỉ bổ sung bằng chứng ở một bối cảnh mới.
 
 **Khái niệm trôi nghĩa.** Kiểm tra xem các khái niệm trung tâm có được định nghĩa rõ ngay từ đầu không. Sau đó đối chiếu giữa các phần: khái niệm có bị đổi nghĩa không, chẳng hạn đầu bài định nghĩa rộng nhưng phần đo lường lại dùng nghĩa hẹp, đến phần kết luận lại quay về nghĩa rộng? Có chỗ nào đổi tên một khái niệm mà không giải thích không?
 
@@ -33,7 +33,7 @@ Khoảng cách giữa ba phần này thường là điểm cần chú ý nhất.
 
 Với kết luận chính của bài, tìm những cách giải thích khác cũng có thể dẫn đến cùng kết quả hoặc cùng tình huống. Xếp mỗi cách vào một trong ba mức:
 
-- Đã được bằng chứng trong bài loại trừi;
+- Đã được bằng chứng trong bài loại trừ;
 - Bài có nhắc đến nhưng chưa loại trừ được;
 - Bài chưa đề cập.
 
@@ -43,7 +43,7 @@ Hai mức sau cần được chú ý nhất. Ghi rõ mức độ đe dọa đố
 
 **Chọn lọc bằng chứng.** Kiểm tra xem các nguồn được trích có nghiêng quá nhiều về phía ủng hộ luận điểm không. Có nguồn trái chiều trong cùng giai đoạn bị bỏ qua không? Bài có chỉ đưa các trường hợp thành công mà không xét các trường hợp thất bại không? Chỉ nêu nhận xét khi có thể chỉ ra cụ thể loại nguồn hoặc trường hợp đang thiếu. Không suy đoán động cơ của tác giả.
 
-**Văn liệu bị bỏ sót.** Chỉ ra những hướng văn liệu mà bài có vẻ chưa xem xét đầy đủ và đề nghị người dùng tự kiểm tra. Chỉ nêu tên tác giả, năm và tên công trình khi chắc chắn công trình đó có thật và thực sự là tài liệu kinh điển hoặc quan trọng trong lĩnh vực. Nếu không chắc, chỉ nêu hướng văn liệu, không tự đưa tên tài liệu. Trích dẫn nghe hợp lý nhưng không có thật là một lỗi khá phổ biến của mô hình ngôn ngữ.
+**Văn liệu bị bỏ sót.** Chỉ ra những hướng văn liệu mà bài có vẻ chưa xem xét đầy đủ và đề nghị người dùng tự kiểm tra. Chỉ nêu tên tác giả, năm và tên công trình khi chắc chắn công trình đó có thật và là công trình kinh điển của lĩnh vực. Nếu không chắc, chỉ nêu hướng văn liệu, không tự đưa tên tài liệu. Trích dẫn nghe hợp lý nhưng không có thật là một lỗi khá phổ biến của mô hình ngôn ngữ.
 
 ## 3. LẬP (ngược): cơ chế, sức phân biệt, đo lường
 
@@ -55,7 +55,7 @@ Hai mức sau cần được chú ý nhất. Ghi rõ mức độ đe dọa đố
 - Có khác, nhưng nhiều cách giải thích khác cũng dự đoán kết quả tương tự;
 - Chỉ cách giải thích của bài mới dự đoán được kết quả này.
 
-Với các bài có mục tiêu ra quyết định (case), kiểm tra xem khuyến nghị có thực sự tốt hơn các phương án thay thế theo chính tiêu chí mà bài đặt ra hay không. Giả thuyết hoặc khuyến nghị nào có thể bỏ đi mà kết luận không thay đổi thì đánh dấu để cân nhắc cắt. Không loại một kết quả chỉ vì nó không phải bằng chứng duy nhất có thể có. Điều cần quan tâm là bằng chứng đó có đủ sức khiến người đọc thay đổi mức độ tin tưởng vào luận điểm hay không.
+Với các bài có mục tiêu ra quyết định (case), kiểm tra xem khuyến nghị có thực sự tốt hơn các phương án thay thế theo chính tiêu chí mà bài đặt ra hay không. Giả thuyết hoặc khuyến nghị nào có thể bỏ đi mà kết luận không thay đổi thì đánh dấu để cắt. Đừng gạt một kết quả chỉ vì nó không chỉ phù hợp với riêng cách giải thích của bài. Điều cần quan tâm là bằng chứng đó có đủ sức khiến người đọc thay đổi mức độ tin tưởng vào luận điểm hay không.
 
 **3c. Đo lường** (chỉ khi bài có đo lường: khảo sát, chỉ số, biến số, giả định mô hình định lượng). Với từng khái niệm chính và cách đo nó: thước đo có đo đúng khái niệm hay đo thứ ở gần? Có thô hơn mức khái niệm cần không? Có vòng tròn (thước đo đã chứa sẵn kết luận) hoặc trùng với biến kiểm soát, biến kết quả không? Cách đo có khớp cách khái niệm được dùng trong tài liệu nền không, nếu khác thì có giải thích không? Nêu đích danh: khái niệm nào, thước đo nào, lệch ở đâu.
 
@@ -70,7 +70,7 @@ Với các bài có mục tiêu ra quyết định (case), kiểm tra xem khuy�
 - **Số liệu.** Cỡ mẫu, kỳ dữ liệu, số biến, số giả thuyết, số phương án có khớp giữa tóm tắt, phần phương pháp, bảng và kết luận không. Số nêu trong lời có khớp số trong bảng không. Có con số nhìn là sai (phần trăm ngoài 0–100, các phần cộng không ra tổng) không.
 - **Thuật ngữ.** Một khái niệm một tên xuyên suốt (xem mục 1).
 - **Mức khẳng định.** Từ nhân quả ("gây ra", "dẫn tới", "quyết định") khi bài chỉ có quan hệ đồng biến; "chứng minh" thay cho "gợi ý"; tuyên bố "đầu tiên" hay "mới" chưa kiểm; ý nghĩa thực tiễn thổi phồng so với độ lớn thật của kết quả; phần thảo luận nhắc lại phần mở đầu thay vì đẩy lập luận đi tiếp; phần hạn chế chỉ liệt kê cho có.
-- **Trích dẫn.** Nếu có skill kiểm tra danh mục tham khảo thì dùng nó. Nếu không, chỉ báo những dấu hiệu nhìn thấy được (trích dẫn có trong bài mà không có trong danh mục và ngược lại, một công trình ghi hai kiểu khác nhau) và nói rõ chưa xác minh được nguồn có thật.
+- **Trích dẫn.** Nếu môi trường có công cụ kiểm tra danh mục tham khảo thì dùng. Nếu không, chỉ báo những dấu hiệu nhìn thấy được (trích dẫn có trong bài mà không có trong danh mục và ngược lại, một công trình ghi hai kiểu khác nhau) và nói rõ chưa xác minh được nguồn có thật.
 - **Phạm vi khái quát.** So điều bài tuyên bố áp dụng được với khung mẫu thật của chính bài (số đơn vị, địa bàn, thời kỳ, ngành). Mẫu một doanh nghiệp, một tỉnh hay một giai đoạn mà kết luận cho cả ngành là vượt phạm vi.
 - **Truy nguồn số liệu và mô tả phương pháp** (khi bài soạn có AI hỗ trợ, hoặc người dùng nói vậy). Lỗi này nguy hiểm vì đọc như làm thật: số liệu nghe hợp lý nhưng không có nguồn, phương pháp được tả bằng thì quá khứ cho việc chưa từng làm. Với từng con số trong phần phương pháp và kết quả, hỏi số đó đến từ dữ liệu hay phép tính nào của người dùng. Với từng bước phương pháp, hỏi người dùng đã thật sự làm chưa (nếu mới là kế hoạch thì phải viết là kế hoạch). Không bác bỏ số không kiểm được từ văn bản; ghi "chưa truy nguồn được" và đề nghị đối chiếu với dữ liệu gốc.
 

@@ -10,7 +10,7 @@ Cơ sở: các trung tâm viết của đại học đều khuyên lập kế ho
 
 ## 1. Hiểu nhanh (vài giây)
 
-Đọc câu hỏi, xác định động từ nhận thức (phân tích/đánh giá/so sánh/đề xuất...). Chỉ để biết đang bị hỏi cái gì - không phân tích sâu, không tìm khoảng trống tri thức như bước HIỂU đầy đủ.
+Đọc câu hỏi, xác định động từ nhận thức (phân tích/đánh giá/so sánh/đề xuất...). Chỉ để biết đang bị hỏi cái gì; không phân tích sâu như bước HIỂU và NGHĨ của chế độ đầy đủ.
 
 ## 2. Lập nhanh (nên dành tối đa khoảng một phần tư thời gian)
 
@@ -34,6 +34,6 @@ Văn phong: tránh các điều cấm trong `style-guide.md` ngay khi viết, nh
 | | Đầy đủ | Nhanh |
 |---|---|---|
 | Bước TÌM | Có, chủ động tra cứu (gồm tìm lý thuyết nền tảng và hiện đại khi chưa chỉ định) | Bỏ tra cứu - dùng framework đã học sẵn; chưa chỉ định thì chọn 1-2 lý thuyết nền tảng đã chắc |
-| Trật tự viết | Dẫn dắt → luận điểm → kết luận | Kết luận trước (answer-first) → luận điểm |
+| Trật tự viết | Theo cấu trúc của sản phẩm cần nộp, dựng từ outline kim tự tháp (luận điểm trung tâm ở đỉnh) | Câu trả lời trung tâm ở ngay câu đầu, không dẫn dắt → các luận điểm |
 | Rà soát cuối | 4 lớp đầy đủ | 1 câu kiểm nhanh (nếu còn giờ) |
 | Outline | Kim tự tháp + lọc MECE | Từ khóa, đánh số theo phần câu hỏi |

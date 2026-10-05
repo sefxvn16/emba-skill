@@ -62,7 +62,6 @@ Làm theo thứ tự:
 - Tác giả đã chắc để nêu thì viết theo quy tắc tên tác giả ở `SKILL.md`, không để họ đứng một mình.
 - Nghiên cứu hiện đại và mọi trích dẫn cụ thể (tác giả, năm, tạp chí, số liệu, DOI) phải truy xuất bằng công cụ tìm kiếm hoặc skill của môi trường trước khi đưa vào bài. Không viết từ trí nhớ, không tự tạo DOI.
 - Không truy xuất được thì ghi là hướng cần tra, không phải nguồn, và không đưa vào danh mục tham khảo. Môi trường không có công cụ tìm kiếm thì nói rõ điều đó; chỉ nêu lý thuyết kinh điển chắc chắn cùng hướng tìm, không nêu nghiên cứu hiện đại cụ thể.
-- Sau khi viết, tự kiểm danh mục và các nhận định: mỗi trích dẫn trong bài có trong danh mục và ngược lại; mỗi nguồn cụ thể đã được truy xuất ở bước này; nhận định gán cho nguồn khớp với nội dung đã truy xuất. Nguồn chưa truy xuất được thì ghi là hướng cần tra, không để trong danh mục.
 
 **Cách trình bày:** trước khi sang LẬP, đưa một bảng ngắn: câu hỏi con | lý thuyết nền tảng | nghiên cứu hiện đại (đã truy xuất) | vì sao chọn và giới hạn. Sau đó làm tiếp, không chờ xác nhận; người dùng có thể chặn lại và đổi lý thuyết. Nếu hai lý thuyết dẫn tới kết luận ngược nhau, nêu cả hai và nói đang theo cái nào, vì sao.
 
@@ -98,7 +97,7 @@ Làm theo thứ tự:
 - **Viết theo argument** - Mỗi phần/đoạn có chức năng rõ trong lập luận; không viết chỉ vì có thông tin hay hoặc đã tìm được nguồn.
 - **Kiểm tra nội dung** - Bài có thực sự trả lời Task và central problem/question không? Kết luận có vượt evidence không?
 - **Kiểm tra logic** - Các phần có nối thành một line of argument nhất quán không? Có đoạn chỉ mô tả, trùng lặp, không đóng góp cho câu trả lời không?
-- **Kiểm tra evidence & citation** - Claim quan trọng có nguồn phù hợp không? Nguồn có thực sự hỗ trợ claim? Trích dẫn/reference chính xác không?
+- **Kiểm tra evidence & citation** - Claim quan trọng có nguồn phù hợp không? Nguồn có thực sự hỗ trợ claim? Trích dẫn/reference chính xác không? Kiểm danh mục: mỗi trích dẫn trong bài có trong danh mục và ngược lại; mỗi nguồn cụ thể đã được truy xuất ở bước TÌM; nhận định gán cho nguồn khớp với nội dung đã truy xuất. Nguồn chưa truy xuất được thì ghi là hướng cần tra, không để trong danh mục.
 - **Kiểm tra trình bày** - Academic tone, clarity, cấu trúc đoạn, format (APA...), số từ/trang, yêu cầu kỹ thuật, tên tác giả theo quy tắc ở `SKILL.md`.
 - **Đối chiếu lại rubric** - Dùng lần cuối để kiểm sản phẩm hoàn chỉnh, đối chiếu với constraints đã ghi ở bước HIỂU.
 - **Văn phong** - Áp dụng `style-guide.md` cho bản giao hoàn chỉnh, sau khi các lớp kiểm tra nội dung, logic, bằng chứng và trình bày ở trên đã xong. Các bước trên quyết định cấu trúc lập luận; `style-guide.md` quyết định cách diễn đạt. Khi hai bên có vẻ xung đột (ví dụ academic tone cần câu bị động), giữ yêu cầu học thuật và chuẩn của môn học.

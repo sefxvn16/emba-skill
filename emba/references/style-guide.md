@@ -12,7 +12,7 @@ Các file khác của skill trỏ tới đây ở những chỗ sau:
 
 - Chế độ đầy đủ (`full-mode.md`, bước VIẾT) và chế độ biên tập (`idea-flow.md`): áp cho **bản giao hoàn chỉnh**, sau khi nội dung, logic, bằng chứng và mạch ý đã xong.
 - Chế độ nhanh (`quick-mode.md`): chỉ tránh các điều cấm ngay khi viết, không chạy phần "Tự kiểm".
-- Chế độ rà soát (`review-mode.md`): khi bài có dấu hiệu văn AI, gọi tên vi phạm theo số điều bên dưới.
+- Chế độ rà soát (`review-mode.md`): khi bài có dấu hiệu văn AI, chỉ gọi tên vi phạm theo số điều bên dưới và chỉ vị trí. Không viết lại câu, không chấm điểm.
 
 Văn bản tiếng Việt: đọc thêm `vietnamese-patterns.md`. Văn bản tiếng Anh: đọc thêm `english-patterns.md`. Hai file đó chỉ là danh sách ví dụ để nhận diện nhanh; 20 điều dưới đây vẫn là quy tắc chính.
 
@@ -32,11 +32,11 @@ Bốn nguyên tắc này đứng trên 20 điều. Khi một điều xung đột
 
 ## Khi sửa văn bản có sẵn
 
-Áp P4: không đổi "gợi ý" thành "cho thấy", không bỏ chữ "có thể" đang mang nghĩa. File này chỉ xử lý hình thức diễn đạt. Nếu văn bản còn rối mạch ý (ý chính bị chôn, điều kiện đứng trước luận điểm), sắp lại mạch ý trước theo `idea-flow.md`, rồi mới gỡ khuôn mẫu. Khi rà soát văn bản có sẵn, liệt kê các vi phạm theo số điều, báo điểm chấm ở mục "Tự kiểm", rồi đưa bản đã sửa.
+Áp P4: không đổi "gợi ý" thành "cho thấy", không bỏ chữ "có thể" đang mang nghĩa. File này chỉ xử lý hình thức diễn đạt. Nếu văn bản còn rối mạch ý (ý chính bị chôn, điều kiện đứng trước luận điểm), sắp lại mạch ý trước theo `idea-flow.md`, rồi mới gỡ khuôn mẫu.
 
 ## Bước bắt buộc trước khi viết
 
-Kiểm hai việc, rồi gộp mọi câu cần hỏi vào một lượt. Không hỏi lại điều đầu vào đã có.
+Kiểm hai việc, rồi gộp mọi câu cần hỏi vào một lượt. Không hỏi lại điều đầu vào đã có. Trong chế độ đầy đủ, phần lớn việc này đã làm ở bước HIỂU và TÌM; ở đây chỉ hỏi những gì còn thiếu.
 
 1. **Dữ kiện chưa xác nhận.** Nếu nội dung có phần chưa xác nhận, thiếu dữ kiện chắc chắn, hoặc cần giả định để hoàn thiện (kể cả chi tiết cụ thể mà bài cần nhưng đầu vào không có), nêu rõ trước khi bắt đầu viết và hỏi cách xử lý: bổ sung dữ kiện, chấp nhận giả định nêu rõ, hoặc bỏ phần đó. Không lặng lẽ tự giả định vào văn bản hoàn thiện, và không gắn nhãn làm việc vào bên trong văn bản. Văn bản giao ra phải sạch, đọc tự nhiên như người viết.
 2. **Người đọc mục tiêu và mức họ đã biết.** Cần cho điều 18. Nếu chưa rõ và nó quyết định việc giữ hay bỏ phần giải thích nền, hỏi cùng lượt.
@@ -107,7 +107,7 @@ Sau đó chấm văn bản theo 5 tiêu chí, mỗi tiêu chí từ 1 đến 10:
 
 Bảng chấm ở trên và ngưỡng 35/50 chuyển thể từ stop-slop của Hardik Pandya (https://github.com/hardikpandya/stop-slop, giấy phép MIT, xem `LICENSE-stop-slop.txt`).
 
-Dưới 35/50 thì sửa tiếp trước khi giao. Điểm chỉ dùng nội bộ, không ghi vào văn bản giao ra. Chỉ báo điểm cho người dùng khi đang rà soát văn bản có sẵn hoặc khi người dùng hỏi.
+Dưới 35/50 thì sửa tiếp trước khi giao. Điểm chỉ dùng nội bộ, không ghi vào văn bản giao ra. Chỉ báo điểm cho người dùng khi họ hỏi.
 
 ## Giới hạn
 
