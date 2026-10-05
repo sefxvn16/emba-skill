@@ -51,9 +51,40 @@ emba/
 
 ## Cài đặt
 
-**Claude Code:** chép thư mục `emba` vào `~/.claude/skills/` (dùng cho mọi dự án) hoặc vào `.claude/skills/` trong một dự án cụ thể.
+### Cách 1: Ứng dụng Claude (claude.ai, Claude desktop)
 
-**Ứng dụng Claude (claude.ai, desktop):** nén thư mục `emba` thành file `.zip` (thư mục `emba` nằm ở gốc file zip), rồi tải lên ở phần quản lý Skills trong cài đặt. Vị trí menu có thể khác nhau tùy phiên bản ứng dụng.
+1. Tải file **[emba.zip](https://github.com/sefxvn16/emba-skill/releases/latest/download/emba.zip)** ở bản phát hành mới nhất (mục **Releases** bên phải trang repo). Không giải nén.
+2. Mở Claude, vào **Settings (Cài đặt) → Capabilities → Skills**, chọn **Upload skill** và chọn file `emba.zip` vừa tải. Tên và vị trí menu có thể khác đôi chút tùy phiên bản ứng dụng. Nếu ứng dụng báo cần bật tính năng chạy mã (code execution) thì bật theo hướng dẫn trên màn hình.
+3. Kiểm tra skill `emba` đã hiện trong danh sách và đang bật.
+
+> Không dùng nút **Code → Download ZIP** của GitHub cho cách này: file đó chứa cả repo, thư mục `emba` nằm lồng bên trong nên ứng dụng Claude không nhận đúng.
+
+### Cách 2: Claude Code
+
+Tải repo rồi chép thư mục `emba` vào thư mục skills cá nhân (dùng cho mọi dự án):
+
+macOS / Linux:
+
+```bash
+git clone https://github.com/sefxvn16/emba-skill.git
+mkdir -p ~/.claude/skills
+cp -r emba-skill/emba ~/.claude/skills/
+```
+
+Windows (PowerShell):
+
+```powershell
+git clone https://github.com/sefxvn16/emba-skill.git
+New-Item -ItemType Directory -Force "$HOME\.claude\skills" | Out-Null
+Copy-Item -Recurse emba-skill\emba "$HOME\.claude\skills\"
+```
+
+Muốn skill chỉ dùng trong một dự án: chép thư mục `emba` vào `.claude/skills/` của dự án đó. Không có git thì tải `emba.zip` như cách 1, giải nén rồi chép thư mục `emba` vào đúng chỗ trên. Khởi động lại Claude Code để skill được nạp.
+
+### Cập nhật lên bản mới
+
+- Ứng dụng Claude: tải `emba.zip` mới, xóa skill `emba` cũ trong Settings rồi tải bản mới lên.
+- Claude Code: xóa thư mục `emba` cũ trong `~/.claude/skills/` rồi chép bản mới vào (hoặc chạy `git pull` trong thư mục repo đã clone rồi chép lại).
 
 ## Cách dùng
 
