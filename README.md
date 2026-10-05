@@ -44,7 +44,8 @@ emba/
     ├── deep-review.md            # Tầng rà soát sâu
     ├── idea-flow.md              # Chế độ biên tập
     ├── re-review.md              # Chế độ kiểm tra sau sửa
-    ├── style-guide.md            # Văn phong bản giao, 16 điều cấm
+    ├── style-guide.md            # Văn phong bản giao: 4 nguyên tắc nền và 20 điều cần tránh
+    ├── vietnamese-patterns.md    # Mẫu khuôn AI trong tiếng Việt (ví dụ nhận diện)
     ├── english-patterns.md       # Mẫu câu tiếng Anh cần tránh
     └── LICENSE-stop-slop.txt     # Giấy phép MIT của phần chuyển thể từ stop-slop
 ```

@@ -1,6 +1,8 @@
 # English patterns to remove
 
-Read this file only when the text is in English. The 16 rules in `style-guide.md` still apply; this file adds English-specific phrase and structure lists.
+Read this file only when the text is in English. The 20 rules in `style-guide.md` still apply; this file adds English-specific phrase and structure lists.
+
+All lists here are examples for recognition, not exhaustive bans. The words and phrases AI overuses change by model and by period: Wikipedia's "Signs of AI writing" (checked 5 Oct 2026) notes that "delve" was heavily overused in 2023 to early 2024 and has dropped sharply since, and that later models lean on words such as "emphasizing", "enhance", "highlighting" and "showcasing". A word being overused does not mean its synonyms are. Judge by mechanism (a generic word standing in for a concrete fact), not by matching a list.
 
 Adapted from [stop-slop](https://github.com/hardikpandya/stop-slop) by Hardik Pandya, MIT License (full text in `LICENSE-stop-slop.txt`). Three original rules were softened to match `style-guide.md`:
 
@@ -43,9 +45,11 @@ Delete; they add no meaning.
 | circle back | return to, follow up |
 | on the same page | aligned, agreed |
 
-## Empty intensifiers and hedges
+## Empty intensifiers (cut) and meaningful hedges (keep)
 
-really, just, literally, genuinely, honestly, simply, actually, deeply, truly, fundamentally, inherently, inevitably, interestingly, importantly, crucially
+Empty intensifiers add no meaning. Cut: really, just, literally, genuinely, honestly, simply, actually, deeply, truly, fundamentally, inherently, inevitably, interestingly, importantly, crucially.
+
+Hedges that carry meaning stay (rule P4 in `style-guide.md`): "may", "perhaps", "tends to", "about" when the author is genuinely unsure or the data is approximate. Removing them changes the claim. Wikipedia's observation is that human-written text uses plain hedges and definite statements more often than AI text does, so stripping all hedging is not a fix.
 
 Filler phrases: "At its core", "In today's [X]", "It's worth noting", "At the end of the day", "When it comes to", "In a world where"
 
@@ -77,6 +81,9 @@ Replace with the specific reason, implication or consequence, or cut the sentenc
 | Narrator from a distance: "Nobody designed this.", "People tend to...", "This is why..." | Address the reader or name the specific people |
 | Wh- sentence openers used as a crutch: "What makes this hard is..." | Lead with the subject: "The constraint is..." |
 | Paragraphs opening with "So" or "Look," | Start with content |
+| Copula avoidance: "serves as", "stands as", "marks", "boasts", "features", "offers", "represents" where "is" or "has" is meant | Write "is" or "has" |
+| Vague connection: "associated with", "connected to", "known for" in place of a stated relationship | State it: "was CEO of", "designed by" (only if the input confirms it) |
+| "Y rather than X" where nobody claimed X (a common pattern in AI-generated text) | State Y directly |
 
 ## Rhythm and word choice
 

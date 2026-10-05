@@ -1,69 +1,106 @@
 # Văn phong bản giao: quy tắc chống khuôn mẫu văn AI
 
-Văn bản AI viết thường mang các dấu hiệu dễ nhận ra: từ vựng sáo rỗng, cấu trúc công thức, cách nhấn mạnh giả tạo. Những dấu hiệu này làm văn bản đọc lên không tự nhiên, giống người khác viết hộ. Bộ quy tắc dưới đây dựa trên trang "Signs of AI writing" do cộng đồng biên tập Wikipedia tổng hợp (https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing). Mục tiêu không phải "giấu" việc dùng AI, mà là bỏ những khuôn mẫu làm văn bản hời hợt hoặc rập khuôn.
+Văn bản AI viết thường mang dấu hiệu dễ thấy: từ vựng sáo rỗng, cấu trúc công thức, nhấn mạnh giả tạo. Đọc lên giống người khác viết hộ chứ không phải chính người viết. Bộ quy tắc dưới đây dựa trên trang "Signs of AI writing" mà cộng đồng biên tập Wikipedia tổng hợp từ hàng nghìn trường hợp thực tế (https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing), cộng thêm quan sát về tiếng Việt.
+
+Cơ chế gốc: mô hình ngôn ngữ chọn chữ có xác suất cao nhất, nên có xu hướng thay chi tiết cụ thể và hiếm bằng mô tả chung, tích cực, hợp với mọi trường hợp. Văn bản vì thế vừa mờ vừa phóng đại. Cách chữa nằm ở việc giữ chi tiết thật có trong đầu vào, không nằm ở việc đổi từ này sang từ khác. Khi viết mới, gặp một mẫu không có trong 20 điều dưới đây, tự hỏi nó có đang thay một chi tiết thật bằng một câu chung không. Khi rà soát văn bản có sẵn, chỉ báo vi phạm thuộc 20 điều.
+
+Mục tiêu không phải qua mặt công cụ phát hiện AI: các công cụ đó nhận sai không ít, kể cả với văn người viết, và Wikipedia cảnh báo chỉ sửa bề mặt dấu hiệu thì không giải quyết vấn đề thật. Mục tiêu là văn bản cụ thể và đúng giọng người viết.
 
 ## Khi nào dùng file này
 
 Các file khác của skill trỏ tới đây ở những chỗ sau:
 
 - Chế độ đầy đủ (`full-mode.md`, bước VIẾT) và chế độ biên tập (`idea-flow.md`): áp cho **bản giao hoàn chỉnh**, sau khi nội dung, logic, bằng chứng và mạch ý đã xong.
-- Chế độ nhanh (`quick-mode.md`): chỉ tránh 16 điều cấm ngay khi viết, không chạy phần "Tự kiểm".
+- Chế độ nhanh (`quick-mode.md`): chỉ tránh các điều cấm ngay khi viết, không chạy phần "Tự kiểm".
 - Chế độ rà soát (`review-mode.md`): khi bài có dấu hiệu văn AI, gọi tên vi phạm theo số điều bên dưới.
 
-**Khi sửa văn bản có sẵn,** giữ nguyên mức khẳng định (không đổi "gợi ý" thành "cho thấy", không bỏ chữ "có thể" đang mang nghĩa), thuật ngữ, trích dẫn và số liệu. File này chỉ xử lý hình thức diễn đạt. Nếu văn bản còn rối mạch ý (ý chính bị chôn, điều kiện đứng trước luận điểm), sắp lại mạch ý trước theo `idea-flow.md`, rồi mới gỡ khuôn mẫu.
+Văn bản tiếng Việt: đọc thêm `vietnamese-patterns.md`. Văn bản tiếng Anh: đọc thêm `english-patterns.md`. Hai file đó chỉ là danh sách ví dụ để nhận diện nhanh; 20 điều dưới đây vẫn là quy tắc chính.
 
-Văn bản tiếng Anh: áp dụng 16 điều dưới đây, cộng thêm danh sách mẫu câu tiếng Anh trong `english-patterns.md`.
+**Không áp dụng** cho phần trả lời trao đổi, giải thích, phản biện trong hội thoại. Ở đó văn phong phân tích bình thường vẫn dùng như cũ.
 
-**Không áp dụng** cho phần trả lời trao đổi, giải thích, phản biện trong hội thoại; ở đó văn phong phân tích bình thường vẫn dùng như cũ.
+## Bốn nguyên tắc nền
+
+Bốn nguyên tắc này đứng trên 20 điều. Khi một điều xung đột với nguyên tắc nền, nguyên tắc nền thắng.
+
+**P1. Không bịa.** Mọi chi tiết cụ thể (số liệu, tên riêng, ví dụ, trải nghiệm, quá trình suy nghĩ) phải lấy từ đầu vào. Quy tắc nào đòi cụ thể hơn mà đầu vào không có thì hỏi người dùng, hoặc giữ ở mức khái quát và báo phần thiếu. Không tự thêm cho đủ quy tắc.
+
+**P2. Theo chuẩn của thể loại.** Văn bản hành chính, pháp lý, hợp đồng, học thuật giữ đúng chuẩn thể loại: câu bị động chuẩn, Hán-Việt chuẩn, thuật ngữ chuyên ngành, từ nối cần cho logic. Quy tắc chống khuôn mẫu không ghi đè chuẩn này.
+
+**P3. Quy tắc là phép kiểm, không phải chỉ tiêu.** Không viết để đạt một con số (độ dài câu, số câu ngắn). Sau khi sửa, kiểm xem có sinh khuôn mới không.
+
+**P4. Giữ nghĩa.** Khi sửa văn bản có sẵn, giữ nguyên mức khẳng định, thuật ngữ, số liệu và lập trường của người viết.
+
+## Khi sửa văn bản có sẵn
+
+Áp P4: không đổi "gợi ý" thành "cho thấy", không bỏ chữ "có thể" đang mang nghĩa. File này chỉ xử lý hình thức diễn đạt. Nếu văn bản còn rối mạch ý (ý chính bị chôn, điều kiện đứng trước luận điểm), sắp lại mạch ý trước theo `idea-flow.md`, rồi mới gỡ khuôn mẫu. Khi rà soát văn bản có sẵn, liệt kê các vi phạm theo số điều, báo điểm chấm ở mục "Tự kiểm", rồi đưa bản đã sửa.
 
 ## Bước bắt buộc trước khi viết
 
-Nếu nội dung cần viết có phần chưa được xác nhận, thiếu dữ kiện chắc chắn, hoặc cần giả định để hoàn thiện, nêu rõ điều đó với người dùng **trước khi bắt đầu viết** và hỏi cách xử lý (bổ sung dữ kiện / chấp nhận giả định nêu rõ / bỏ phần đó). Không lặng lẽ tự giả định vào một văn bản hoàn thiện, và không gắn nhãn làm việc vào bên trong văn bản. Văn bản giao ra phải sạch, đọc tự nhiên như người viết.
+Kiểm hai việc, rồi gộp mọi câu cần hỏi vào một lượt. Không hỏi lại điều đầu vào đã có.
 
-## 16 điều cấm
+1. **Dữ kiện chưa xác nhận.** Nếu nội dung có phần chưa xác nhận, thiếu dữ kiện chắc chắn, hoặc cần giả định để hoàn thiện (kể cả chi tiết cụ thể mà bài cần nhưng đầu vào không có), nêu rõ trước khi bắt đầu viết và hỏi cách xử lý: bổ sung dữ kiện, chấp nhận giả định nêu rõ, hoặc bỏ phần đó. Không lặng lẽ tự giả định vào văn bản hoàn thiện, và không gắn nhãn làm việc vào bên trong văn bản. Văn bản giao ra phải sạch, đọc tự nhiên như người viết.
+2. **Người đọc mục tiêu và mức họ đã biết.** Cần cho điều 18. Nếu chưa rõ và nó quyết định việc giữ hay bỏ phần giải thích nền, hỏi cùng lượt.
 
-**1. Từ vựng sáo rỗng.** Không dùng: delve, tapestry, intricate, pivotal, underscore, testament, robust, seamless, leverage, foster, garner, elevate, showcase, unlock, vibrant, bustling, nestled, realm, comprehensive, crucial, boast, "stands as a" (và các từ tiếng Việt tương đương mang tính công thức: "đóng vai trò then chốt", "là minh chứng sống động", "bức tranh toàn cảnh"...). Thay bằng từ cụ thể, đúng nghĩa hẹp; nếu không tìm được từ tự nhiên, viết lại cả câu.
+Nếu người dùng bảo viết ngay, không hỏi: viết ở mức khái quát cho phần thiếu, và liệt kê phần thiếu ngoài văn bản sau khi giao.
 
-**2. Liệt kê bộ ba máy móc.** Số lượng mục trong liệt kê phải đúng số lượng thực tế, không mặc định nhóm ba theo phản xạ nhịp điệu.
+## 20 điều cần tránh
 
-**3. Negative parallelism.** Không dùng "không chỉ X mà còn Y", "đây không phải A, đây là B". Cần đối lập thì nêu thẳng bằng dữ kiện cụ thể.
+**1. Từ và cụm thay cho dữ kiện.** Nhận diện theo cơ chế, không theo danh sách: từ nghe quan trọng nhưng bỏ đi thì câu không mất thông tin (delve, tapestry, pivotal, crucial, robust, seamless, leverage, foster, showcase, "đóng vai trò then chốt", "bức tranh toàn cảnh", "toàn diện", "bền vững" đứng một mình). Ba nhóm cùng điều này: (a) cụm trang trọng hóa thay cho "là" và "có" ("đóng vai trò là", "được xem là", "sở hữu" khi không nói về quyền sở hữu, "mang đến"; serves as, stands as, boasts, features); (b) cấu trúc dịch từ tiếng Anh, danh hóa dài kiểu "việc tiến hành thực hiện…"; (c) Hán-Việt thừa khi có từ thường cùng nghĩa (thuật ngữ chuyên ngành và từ chuẩn của thể loại thì giữ, theo P2). Sửa bằng "là", "có", động từ thường, hoặc chi tiết cụ thể. Không tìm được từ tự nhiên thì viết lại cả câu. Danh sách trong các file ví dụ chỉ để minh họa. Từ bị lạm dụng đổi theo mô hình và thời kỳ; đổi sang từ đồng nghĩa cũng rỗng thì chưa giải quyết gì.
 
-**4. False range.** Không viết "trải dài từ A đến B" nếu không liệt kê được các điểm cụ thể ở giữa. Chỉ có 2 điểm dữ liệu thì nói rõ là 2, không tạo cảm giác một dải liên tục.
+**2. Liệt kê bộ ba máy móc.** Số lượng mục trong liệt kê phải đúng số lượng thực tế. Không mặc định nhóm ba theo phản xạ nhịp điệu.
 
-**5. Editorializing asides.** Không chèn "cần lưu ý rằng", "không thể không nhắc đến", "điều quan trọng là". Mức độ quan trọng phải tự thể hiện qua cách trình bày và vị trí, không cần tuyên bố.
+**3. Negative parallelism.** Không dùng "không chỉ X mà còn Y", "đây không phải A, đây là B", "Y chứ không phải X", "Y thay vì X" khi X chưa ai nêu. Cần đối lập thì nêu thẳng bằng dữ kiện cụ thể. Đối lập thật, có dữ kiện cho cả hai vế, thì giữ.
 
-**6. Overemphasis on significance.** Không gán ý nghĩa phóng đại cho dữ kiện nhỏ trừ khi có căn cứ định lượng hoặc hệ quả cụ thể đi kèm ngay sau.
+**4. False range.** Không viết "trải dài từ A đến B" nếu không liệt kê được các điểm cụ thể ở giữa. Chỉ có 2 điểm dữ liệu thì nói rõ là 2.
 
-**7. Superficial tacked-on analysis.** Không gắn cụm phân tích hời hợt vào cuối câu dữ kiện ("cho thấy...", "phản ánh...", "nhấn mạnh..."). Có phân tích thật thì viết thành câu riêng, có lập luận đầy đủ.
+**5. Editorializing asides.** Không chèn "cần lưu ý rằng", "không thể không nhắc đến", "điều quan trọng là". Mức độ quan trọng tự thể hiện qua cách trình bày và vị trí.
 
-**8. Vague attribution.** Không viết "các nghiên cứu cho thấy", "giới quan sát nhận định" mà không nêu nguồn cụ thể. Không có nguồn xác định thì không đưa tuyên bố đó vào bài.
+**6. Phóng đại ý nghĩa và giọng quảng cáo.** Không gán ý nghĩa phóng đại cho dữ kiện nhỏ, và không viết như tờ rơi hay cẩm nang du lịch. Mô tả bằng đặc điểm kiểm chứng được. Thành tích có số liệu đi kèm ngay sau thì giữ. Khi viết lại một văn bản để "bớt giọng quảng cáo", kiểm xem bản mới có đưa thêm giọng quảng cáo không.
 
-**9. Câu tóm tắt lặp lại.** Không dùng "Tóm lại,", "Nhìn chung," chỉ để nhắc lại điều vừa nói. Phần tổng kết (nếu cần) phải chứa thông tin tổng hợp mới, không phải diễn đạt lại.
+**7. Phân tích hời hợt gắn đuôi.** Không gắn cụm "cho thấy…", "phản ánh…", "nhấn mạnh…" vào cuối câu dữ kiện. Có phân tích thật thì viết thành câu riêng, có lập luận đầy đủ.
 
-**10. Cấu trúc công thức cứng nhắc.** Không áp khuôn mục cố định nếu không phản ánh đúng logic nội tại của nội dung. Cấu trúc do nội dung quyết định, không phải khuôn có sẵn.
+**8. Nguồn và quan hệ mơ hồ.** Không viết "các nghiên cứu cho thấy", "giới quan sát nhận định" mà không nêu nguồn. Không có nguồn xác định thì không đưa tuyên bố đó vào bài. Cùng điều này: nói thẳng quan hệ ("là giám đốc của", "do X thiết kế") thay vì "gắn liền với", "có liên quan đến", "được biết đến với". Quan hệ đầu vào chưa xác nhận thì hỏi, không tự khẳng định.
 
-**11. Giới hạn định dạng.** In đậm chỉ cho thuật ngữ/con số cần quét nhanh, không theo phản xạ. Bullet chỉ khi các mục thực sự độc lập, song song; có quan hệ nhân quả/diễn giải thì viết văn xuôi. Tiêu đề viết hoa chữ đầu câu, không Title Case toàn bộ từ. Em dash (—) chỉ khi dấu phẩy/ngoặc đơn/hai chấm không diễn đạt đúng quan hệ ngữ pháp cần thiết, không dùng để tạo nhịp điệu.
+**9. Câu tóm tắt lặp và kết bài công thức.** Không dùng "Tóm lại,", "Nhìn chung," chỉ để nhắc lại điều vừa nói. Phần tổng kết, nếu cần, phải chứa thông tin tổng hợp mới. Cùng điều này: kết bài theo khuôn "Dù… vẫn đối mặt thách thức… triển vọng…", và kết luận đạo đức hóa kiểu "do đó doanh nghiệp cần…" khi đó không phải khuyến nghị thật. Thách thức hay khuyến nghị có nội dung cụ thể thì giữ.
 
-**12. Tàn dư văn phong hội thoại.** Không kết văn bản bằng "Hy vọng điều này hữu ích", "Cho tôi biết nếu cần thêm gì". Không mở đầu kiểu thư từ ("Hy vọng thư này đến tay bạn...") trong nội dung không phải thư.
+**10. Cấu trúc công thức cứng nhắc.** Không áp khuôn mục cố định nếu không phản ánh logic nội tại của nội dung. Cấu trúc do nội dung quyết định.
 
-**13. Không để lại template chưa điền.** Không có hướng dẫn dạng điền-chỗ-trống hay ghi chú nội bộ còn sót trong bản giao.
+**11. Giới hạn định dạng.** In đậm chỉ cho thuật ngữ hoặc con số cần quét nhanh. Bullet chỉ khi các mục thực sự độc lập, song song; có quan hệ nhân quả hoặc diễn giải thì viết văn xuôi. Tiêu đề viết hoa chữ đầu câu, không Title Case. Em dash (—) chỉ khi dấu phẩy, ngoặc đơn, hai chấm không diễn đạt đúng quan hệ ngữ pháp cần thiết, không dùng để tạo nhịp.
 
-**14. Không gắn nhãn làm việc trong văn bản hoàn thiện.** Nhãn đánh dấu loại thông tin hay độ chắc chắn (ví dụ "[giả định]", "[ước tính]") chỉ dùng khi trao đổi trong hội thoại, không xuất hiện trong văn bản giao ra. Xem "Bước bắt buộc trước khi viết" ở trên để xử lý phần chưa xác nhận.
+**12. Tàn dư văn phong hội thoại.** Không kết văn bản bằng "Hy vọng điều này hữu ích", "Cho tôi biết nếu cần thêm gì". Không mở đầu kiểu thư từ trong nội dung không phải thư.
 
-**15. Nhịp câu đơn điệu.** Không để ba câu liền nhau có độ dài gần bằng nhau. Không kết mọi đoạn bằng một câu chốt ngắn kiểu khẩu hiệu. Câu nào nghe như trích dẫn để đăng mạng xã hội thì viết lại thành câu bình thường mang thông tin cụ thể.
+**13. Template chưa điền.** Không để hướng dẫn điền-chỗ-trống hay ghi chú nội bộ sót trong bản giao.
 
-**16. Giấu chủ thể hành động.** Khi việc ai làm, ai quyết định, ai chịu trách nhiệm có ý nghĩa với người đọc, nêu rõ chủ thể. Không để vật vô tri làm thay việc của người ("quyết định dần hình thành", "thị trường tự điều chỉnh") khi thực tế có một người hoặc tổ chức cụ thể đứng sau. Câu bị động theo chuẩn văn bản học thuật, hành chính, pháp lý ("Hợp đồng được ký kết ngày...") vẫn dùng bình thường.
+**14. Nhãn làm việc trong văn bản hoàn thiện.** Nhãn đánh dấu loại thông tin hay độ chắc chắn (ví dụ "[giả định]", "[ước tính]") chỉ dùng khi trao đổi trong hội thoại, không xuất hiện trong văn bản giao ra. Xử lý phần chưa xác nhận theo "Bước bắt buộc trước khi viết".
+
+**15. Nhịp câu đơn điệu.** Đây là phép kiểm sau khi viết, không phải chỉ tiêu (P3). Nếu ba câu liền nhau cùng cấu trúc và dài gần bằng nhau, hoặc mọi đoạn đều kết bằng một câu chốt ngắn kiểu khẩu hiệu, thì xem lại. Sửa bằng cách gộp hoặc tách câu theo nghĩa. Câu nghe như trích dẫn đăng mạng xã hội thì viết lại thành câu bình thường mang thông tin cụ thể. Không sửa theo hướng sinh chuỗi câu cụt dồn dập.
+
+**16. Giấu chủ thể hành động.** Khi việc ai làm, ai quyết định, ai chịu trách nhiệm có ý nghĩa với người đọc, nêu rõ chủ thể. Không để vật vô tri làm thay việc của người ("quyết định dần hình thành", "thị trường tự điều chỉnh") khi thực tế có người hoặc tổ chức cụ thể đứng sau. Câu bị động theo chuẩn học thuật, hành chính, pháp lý ("Hợp đồng được ký kết ngày…") vẫn dùng bình thường.
+
+**17. Cân bằng giả.** Không viết "một mặt… mặt khác…" để dĩ hòa vi quý khi người viết đã có kết luận. Nếu đầu vào có lập trường, viết thẳng theo lập trường đó và nêu đánh đổi cụ thể. Nếu đầu vào chưa có lập trường, đừng tự tạo (P4): giữ trình bày cân bằng, hoặc hỏi người dùng. Văn bản có bản chất là trình bày phương án để người khác quyết thì cân bằng là đúng.
+
+**18. Giải thích điều người đọc đã biết.** Bỏ câu nêu điều hiển nhiên với người đọc mục tiêu (ví dụ nói với một kế toán trưởng rằng báo cáo tài chính cần chính xác). Thông tin mới nằm ở quan hệ giữa các ý. Người đọc không chuyên thì giữ định nghĩa cần thiết. Khi rà soát văn bản có sẵn mà chưa biết người đọc, chỉ bỏ câu hiển nhiên với mọi người đọc; phần còn lại giữ và ghi vào danh sách vi phạm là "cần xác nhận người đọc".
+
+**19. Từ nối làm vẻ mạch lạc.** Từ nối mang quan hệ logic thật (nguyên nhân, nhượng bộ, đối lập) thì giữ. Phép thử: bỏ từ nối đi, người đọc có phải đọc lại mới hiểu quan hệ giữa hai câu không? Không phải đọc lại thì bỏ. Phải đọc lại thì giữ. Từ nối báo bước ngoặt ("tuy nhiên", "dù vậy") giữ khi hai ý đối lập nhau. Không cấm hẳn từ nối, vì văn nghị luận và văn bản hành chính cần chúng (P2).
+
+**20. Đổi đồng nghĩa cho thuật ngữ.** Thuật ngữ, tên chủ thể, tên dự án giữ một cách gọi xuyên suốt văn bản ("doanh nghiệp" không biến thành "tổ chức", "đơn vị", "chủ thể" cho đỡ lặp). Với từ thường, lặp hay đổi tùy nghĩa, đừng ép lặp đến nặng nề.
 
 ## Tự kiểm trước khi giao văn bản
 
-Sau khi viết xong, rà lại toàn bộ văn bản theo 16 điều trên như một checklist, không chỉ dựa vào việc viết đúng ngay từ đầu, vì đây là điểm dễ tái phạm nhất khi văn bản dài. Nếu phát hiện vi phạm, sửa trước khi giao, không hỏi lại người dùng có cần sửa không.
+Viết xong, rà lại toàn bộ theo 20 điều như một checklist, vì văn bản dài rất dễ tái phạm dù lúc viết đã cố tránh. Phát hiện vi phạm thì sửa trước khi giao, không hỏi lại người dùng.
 
-Sau checklist, chấm văn bản theo 5 tiêu chí, mỗi tiêu chí từ 1 đến 10:
+Thêm hai phép thử:
+
+**(a) Phép thử cụ thể.** Với mỗi nhận định quan trọng, hỏi: cụ thể là gì, vì sao, biểu hiện ở đâu? Trả lời được từ đầu vào thì đưa câu trả lời vào văn bản. Không trả lời được thì đừng bịa (P1): hạ nhận định xuống mức đầu vào hỗ trợ, rồi nêu cho người dùng, ngoài văn bản, những chỗ còn thiếu chi tiết.
+
+**(b) Phép thử khuôn mới.** Đọc lại bản sửa: có chuỗi câu cụt dồn dập, câu chốt khẩu hiệu, hay một từ nối hoặc kiểu câu mới lặp lại thay cho cái vừa bỏ không? Có thì sửa.
+
+Sau đó chấm văn bản theo 5 tiêu chí, mỗi tiêu chí từ 1 đến 10:
 
 | Tiêu chí | Câu hỏi |
 |---|---|
 | Thẳng | Câu văn nói thẳng nội dung, hay mất chữ để rào đón, giới thiệu? |
-| Nhịp | Độ dài câu có thay đổi, hay đều đều như máy? |
+| Nhịp | Nhịp câu đổi theo ý cần nói, hay đều đều như máy? (Chấm theo cảm nhận khi đọc, không đo bằng số chữ.) |
 | Tin người đọc | Có giải thích thừa, nhắc lại điều người đọc đã hiểu? |
 | Tự nhiên | Đọc lên có giống người thật viết? |
 | Cô đọng | Còn chữ nào cắt được mà không mất nghĩa? |
@@ -74,4 +111,8 @@ Dưới 35/50 thì sửa tiếp trước khi giao. Điểm chỉ dùng nội b�
 
 ## Giới hạn
 
-Đây là quy tắc về *hình thức diễn đạt*, không đảm bảo *nội dung* đủ sâu hay đủ căn cứ. Chất lượng lập luận, dữ kiện và độ chính xác vẫn do các bước khác của skill và kỷ luật xác minh thông thường quyết định.
+Đây là quy tắc về *hình thức diễn đạt*, không đảm bảo *nội dung* đủ sâu hay đủ căn cứ. Chất lượng lập luận, dữ kiện, độ chính xác vẫn do các bước khác của skill và kỷ luật xác minh thông thường quyết định.
+
+Skill không nhằm vượt qua công cụ phát hiện AI và không đảm bảo kết quả với chúng. Không có bộ dấu hiệu nào đủ tin cậy để kết luận một văn bản là do AI viết. Nếu người dùng nhờ sửa để qua một công cụ phát hiện: vẫn áp 20 điều như bình thường vì chúng làm văn bản tốt hơn, không dùng mẹo chỉ để đánh lừa công cụ (cố ý thêm lỗi chính tả, đảo từ ngẫu nhiên, bịa chi tiết), và nói rõ không thể đảm bảo kết quả.
+
+Phần tiếng Việt dựa trên quan sát và các nguồn tiếng Anh. Chưa có nghiên cứu tiếng Việt nào được kiểm chứng làm căn cứ cho danh sách mẫu cụ thể.

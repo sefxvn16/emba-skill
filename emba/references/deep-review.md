@@ -1,57 +1,61 @@
 # Tầng rà soát sâu: đề tài, luận văn, báo cáo cuối khóa
 
-Dùng cùng `review-mode.md` (đọc ngược theo 5 phạm trù, thang mức độ, không tự viết lại bài). File này thêm các phép kiểm sâu và định dạng đầu ra của tầng sâu. Mỗi phép kiểm gắn vào đúng phạm trù, không tạo cấu trúc báo cáo song song.
+Sử dụng `review-mode.md` làm khung chính: rà soát theo 5 phạm trù, áp dụng thang mức độ và không tự viết lại bài. File này bổ sung các phép kiểm chuyên sâu và quy định cách trình bày kết quả ở tầng sâu. Mỗi phép kiểm được xếp vào đúng phạm trù tương ứng, không tạo thêm một hệ thống báo cáo riêng.
 
-Ý tưởng phương pháp tham khảo từ Academic Research Skills của Cheng-I Wu (https://github.com/Imbad0202/academic-research-skills, giấy phép CC BY-NC 4.0, https://creativecommons.org/licenses/by-nc/4.0/). Đã viết lại bằng tiếng Việt và sửa đổi theo bối cảnh EMBA.
+Ý tưởng phương pháp tham khảo một phần từ Academic Research Skills của Cheng-I Wu, giấy phép CC BY-NC 4.0. Được chỉnh sửa lại để phù hợp với nhu cầu và tư duy làm việc của bản thân tác giả và bối cảnh học tập.
 
 ## 0. Trước khi rà
 
-**Chuẩn chấm.** Xác định bài được chấm theo chuẩn nào: rubric, yêu cầu của giảng viên, tiêu chí hội đồng, hoặc chuẩn người dùng tự nêu. Chưa rõ thì hỏi một câu, gộp với câu chọn chế độ ở Bước 0b nếu cả hai cùng chưa rõ (hỏi một lượt). Người dùng không có chuẩn nào: vẫn rà từng khâu, bỏ mục 5a (kết luận tổng thể) và nói rõ lý do, vì thiếu chuẩn thì "đạt/chưa đạt" không có căn cứ.
+**Chuẩn chấm.** Xác định bài được đánh giá theo chuẩn nào: rubric, yêu cầu của giảng viên, tiêu chí của hội đồng hoặc tiêu chí do người dùng đưa ra. Nếu chưa rõ thì hỏi một câu. Nếu cả chuẩn chấm và chế độ rà soát ở Bước 0b đều chưa rõ, gộp thành một lần hỏi. Nếu người dùng không đưa ra chuẩn nào, vẫn rà từng khâu nhưng bỏ mục 5a (kết luận tổng thể) và nói rõ lý do: không có chuẩn thì không đủ căn cứ để kết luận bài "đạt" hay "chưa đạt".
 
-**Trạng thái bản thảo.** Bản nháp thường chứa tín hiệu về chỗ tác giả còn kẹt: ghi chú TODO, phương án chưa chọn trong ngoặc, câu tự hỏi, bình luận của người cùng làm, một mục bị sửa dày hơn hẳn các mục khác, bảng/hình mới có chỗ giữ chỗ. Nếu file có những thứ này thì đọc cả chúng (dùng công cụ đọc file phù hợp với môi trường đang chạy).
-- Phần tác giả đã tự đánh dấu chưa xong: ghi nhận ngắn, không chấm.
-- Phần tác giả tưởng đã xong nhưng còn hỏng: đây mới là đối tượng chính.
-- Ghi chú để lộ vấn đề cốt lõi chưa giải (ví dụ "TODO: giải thích vì sao khái niệm này khác X" khi X là khái niệm trung tâm): nêu thành điểm yếu nghiêm trọng, không coi là việc vặt.
-- Bảng/hình chưa có: không phê bình nội dung. Chỉ kiểm chú thích và số lượng có khớp với phần phương pháp.
+**Trạng thái bản thảo.** Bản nháp thường cho thấy những chỗ tác giả vẫn còn vướng, chẳng hạn như ghi chú TODO, phương án chưa chọn trong ngoặc, câu tự hỏi, bình luận của người cùng làm, một mục được sửa kỹ hơn hẳn các mục khác hoặc bảng/hình mới chỉ để chỗ trống. Nếu file có những dấu hiệu này thì đọc cả chúng, bằng công cụ phù hợp với môi trường đang chạy.
+
+- Phần tác giả đã tự đánh dấu là chưa hoàn thành: chỉ ghi nhận ngắn, không chấm.
+- Phần tác giả tưởng đã hoàn thành nhưng thực tế vẫn có vấn đề: đây mới là đối tượng cần tập trung rà.
+- Nếu ghi chú cho thấy một vấn đề cốt lõi vẫn chưa được giải, ví dụ "TODO: giải thích vì sao khái niệm này khác X" trong khi X là khái niệm trung tâm, thì phải nêu thành điểm yếu nghiêm trọng, không xem đó là việc nhỏ.
+- Với bảng/hình chưa có, không phê bình nội dung. Chỉ kiểm tra chú thích và số lượng có khớp với phần phương pháp hay không.
 
 ## 1. NGHĨ (ngược): đóng góp và khái niệm
 
-**Đóng góp.** Tách ba thứ rồi so với nhau:
-- đóng góp bài tự tuyên bố (trích theo lời bài);
-- đóng góp bài thực sự tạo ra so với những gì người trong ngành đã biết;
-- cách một người đọc khó tính tóm tắt đóng góp đó trong một câu.
+**Đóng góp.** Tách ba thứ để đối chiếu với nhau:
 
-Khoảng cách giữa ba thứ là phát hiện chính. Gắn nhãn loại khoảng trống bài lấp: lý thuyết (các cách giải thích có sẵn không giải thích nổi hiện tượng), bằng chứng (chưa ai đo hoặc kiểm), hay bối cảnh (đã kiểm ở nơi khác, nay kiểm ở bối cảnh mới). Nhãn để mô tả, không để chấm điểm. Đề tài EMBA thường thuộc loại bối cảnh và ứng dụng, chấp nhận được nếu bài nói thẳng và chỉ ra giá trị cho người ra quyết định. Lỗi nằm ở chỗ bài tự nhận đóng góp lý thuyết trong khi thực chất là bối cảnh.
+- Đóng góp bài tự tuyên bố, trích đúng theo lời bài;
+- Đóng góp bài thực sự tạo ra so với những gì ngành đã biết;
+- Nếu là một người đọc khó tính, họ sẽ tóm tắt đóng góp của bài trong một câu như thế nào?
 
-**Khái niệm trôi nghĩa.** Khái niệm trung tâm có được định nghĩa rõ một lần, ở đầu bài không? Có đổi nghĩa giữa các phần không (đầu bài định nghĩa rộng, phần đo lường dùng nghĩa hẹp, kết luận lại dùng nghĩa rộng)? Có chỗ nào đổi tên khái niệm mà không báo không?
+Khoảng cách giữa ba phần này thường là điểm cần chú ý nhất. Xác định bài đang lấp loại khoảng trống nào: lý thuyết (các cách giải thích hiện có chưa giải thích được hiện tượng), bằng chứng (chưa có ai đo hoặc kiểm chứng), hay bối cảnh (đã được kiểm chứng ở nơi khác nhưng chưa được kiểm tra trong bối cảnh này). Các nhãn này chỉ để mô tả, không dùng để chấm điểm. Với đề tài EMBA, đóng góp về bối cảnh và ứng dụng thường là phù hợp, miễn là bài nói rõ điều đó và chỉ ra giá trị đối với người ra quyết định. Vấn đề là khi bài tự nhận có đóng góp về lý thuyết nhưng thực tế chỉ bổ sung bằng chứng ở một bối cảnh mới.
 
-**Kết luận định trước.** Câu hỏi nghiên cứu có đã chứa sẵn đáp án không? Phần tổng quan có vẻ chỉ gom những gì dẫn tới một kết luận đã biết từ đầu không? Cách chọn phương pháp có nghiêng về việc cho ra kết quả mong đợi không?
+**Khái niệm trôi nghĩa.** Kiểm tra xem các khái niệm trung tâm có được định nghĩa rõ ngay từ đầu không. Sau đó đối chiếu giữa các phần: khái niệm có bị đổi nghĩa không, chẳng hạn đầu bài định nghĩa rộng nhưng phần đo lường lại dùng nghĩa hẹp, đến phần kết luận lại quay về nghĩa rộng? Có chỗ nào đổi tên một khái niệm mà không giải thích không?
+
+**Kết luận định trước.** Câu hỏi nghiên cứu có vô tình chứa sẵn đáp án không? Phần tổng quan có chỉ chọn và sắp xếp những tài liệu dẫn tới một kết luận đã định trước không? Cách chọn phương pháp có thiên về việc tạo ra kết quả mà tác giả mong muốn không?
 
 ## 2. TÌM (ngược): cách giải thích thay thế
 
-Với kết luận chính của bài, nêu các cách giải thích khác cũng có thể tạo ra cùng kết quả hoặc cùng tình huống. Xếp từng cách vào một trong ba mức:
-- đã loại trừ bằng bằng chứng trong bài;
-- bài có nhắc nhưng chưa loại trừ được;
-- bài không nhắc tới.
+Với kết luận chính của bài, tìm những cách giải thích khác cũng có thể dẫn đến cùng kết quả hoặc cùng tình huống. Xếp mỗi cách vào một trong ba mức:
 
-Hai mức sau đáng chú ý nhất; ghi mức đe dọa với kết luận. Chỉ xét những cách thực sự đe dọa luận điểm của bài, không liệt kê cho đủ. Thêm một câu hỏi: nếu người đọc bác bỏ cách diễn giải của bài, họ sẽ nói kết quả này thực ra nói về điều gì?
+- Đã được bằng chứng trong bài loại trừi;
+- Bài có nhắc đến nhưng chưa loại trừ được;
+- Bài chưa đề cập.
 
-**Phản bác mạnh nhất.** Dựng phiên bản mạnh nhất của lời phản bác kết luận chính, như một người không đồng ý nhưng công bằng sẽ nói. Hỏi thêm hai điều: có cách giải thích đơn giản hơn mà vẫn khớp dữ liệu không, và nếu luận điểm lõi sụp thì bài còn giữ được giá trị gì. Phần này cho biết bài dựa vào đâu để đứng vững, khác với danh sách các khả năng ở trên.
+Hai mức sau cần được chú ý nhất. Ghi rõ mức độ đe dọa đối với kết luận. Chỉ đưa vào những cách giải thích thực sự có thể làm yếu luận điểm của bài, không liệt kê cho đủ số lượng. Đặt thêm một câu hỏi: nếu người đọc không chấp nhận cách giải thích của bài, họ có thể cho rằng kết quả này thực ra đang nói về điều gì?
 
-**Chọn lọc bằng chứng.** Nguồn được trích có nghiêng về phía ủng hộ không? Có nguồn trái chiều cùng giai đoạn bị bỏ qua không? Có chỉ nhìn các trường hợp thành công và bỏ trường hợp thất bại không? Chỉ nêu nhận xét này khi chỉ ra được cụ thể loại nguồn hoặc trường hợp đang thiếu. Không đoán động cơ của tác giả.
+**Phản bác mạnh nhất.** Dựng phiên bản mạnh nhất của phản bác đối với kết luận chính, theo cách một người không đồng ý nhưng vẫn công bằng sẽ lập luận. Sau đó hỏi thêm hai điều: có cách giải thích nào đơn giản hơn mà vẫn phù hợp với dữ liệu không? Nếu luận điểm cốt lõi không đứng vững, bài còn giữ lại được giá trị gì? Phần này nhằm xác định bài thực sự dựa vào đâu để đứng vững, thay vì chỉ liệt kê các khả năng có thể xảy ra ở trên.
 
-**Văn liệu bị bỏ sót.** Chỉ nêu hướng văn liệu bài có vẻ đánh giá thấp và đề nghị người dùng tự kiểm. Chỉ nêu tên tác giả, năm, tên công trình khi chắc chắn công trình có thật và là kinh điển của lĩnh vực. Không chắc thì nêu hướng, không nêu tên: trích dẫn nghe hợp lý nhưng không có thật là lỗi hay gặp của mô hình ngôn ngữ.
+**Chọn lọc bằng chứng.** Kiểm tra xem các nguồn được trích có nghiêng quá nhiều về phía ủng hộ luận điểm không. Có nguồn trái chiều trong cùng giai đoạn bị bỏ qua không? Bài có chỉ đưa các trường hợp thành công mà không xét các trường hợp thất bại không? Chỉ nêu nhận xét khi có thể chỉ ra cụ thể loại nguồn hoặc trường hợp đang thiếu. Không suy đoán động cơ của tác giả.
+
+**Văn liệu bị bỏ sót.** Chỉ ra những hướng văn liệu mà bài có vẻ chưa xem xét đầy đủ và đề nghị người dùng tự kiểm tra. Chỉ nêu tên tác giả, năm và tên công trình khi chắc chắn công trình đó có thật và thực sự là tài liệu kinh điển hoặc quan trọng trong lĩnh vực. Nếu không chắc, chỉ nêu hướng văn liệu, không tự đưa tên tài liệu. Trích dẫn nghe hợp lý nhưng không có thật là một lỗi khá phổ biến của mô hình ngôn ngữ.
 
 ## 3. LẬP (ngược): cơ chế, sức phân biệt, đo lường
 
-**3a. Cơ chế.** Với mỗi luận điểm chính: bài giải thích vì sao quan hệ xảy ra, hay chỉ gọi tên cơ chế rồi khẳng định? Lập luận được suy ra từ tiền đề, hay các nhận định được xếp trước rồi trích nguồn đỡ sau? Bài có tách cách giải thích của mình khỏi những cách gần nó, hay chỉ bác một phiên bản yếu của cách giải thích khác?
+**3a. Cơ chế.** Với mỗi luận điểm chính, kiểm tra xem bài có thực sự giải thích vì sao mối quan hệ xảy ra hay chỉ gọi tên một cơ chế rồi khẳng định. Lập luận có được suy ra từ các tiền đề không, hay các nhận định được đưa ra trước rồi mới tìm nguồn để củng cố? Bài có phân biệt cách giải thích của mình với những cách giải thích gần giống không, hay chỉ bác bỏ một phiên bản yếu của cách giải thích khác?
 
-**3b. Sức phân biệt của giả thuyết, đề xuất, khuyến nghị.** Với từng cái: nếu nó đúng và nếu nó sai, bằng chứng trong bài có khác nhau không? Xếp vào một trong ba mức:
-- không đổi gì (kết quả nào cũng diễn giải được thành ủng hộ);
-- có đổi, nhưng nhiều cách giải thích khác cũng dự đoán như vậy;
-- chỉ cách giải thích của bài dự đoán được kết quả này.
+**3b. Sức phân biệt của giả thuyết, đề xuất, khuyến nghị.** Với từng giả thuyết, đề xuất hoặc khuyến nghị, đặt câu hỏi: nếu nó đúng và nếu nó sai, bằng chứng trong bài có khác nhau không? Xếp vào một trong ba mức:
 
-Với đề ra quyết định (case): khuyến nghị có thắng phương án thay thế theo tiêu chí do chính bài đặt ra không? Giả thuyết hoặc khuyến nghị nào bỏ đi mà kết luận không đổi thì đánh dấu để cắt. Đừng gạt một kết quả chỉ vì nó không độc nhất; tiêu chí là bằng chứng có làm người đọc đổi niềm tin hay không.
+- Không khác: kết quả nào cũng có thể được diễn giải là ủng hộ;
+- Có khác, nhưng nhiều cách giải thích khác cũng dự đoán kết quả tương tự;
+- Chỉ cách giải thích của bài mới dự đoán được kết quả này.
+
+Với các bài có mục tiêu ra quyết định (case), kiểm tra xem khuyến nghị có thực sự tốt hơn các phương án thay thế theo chính tiêu chí mà bài đặt ra hay không. Giả thuyết hoặc khuyến nghị nào có thể bỏ đi mà kết luận không thay đổi thì đánh dấu để cân nhắc cắt. Không loại một kết quả chỉ vì nó không phải bằng chứng duy nhất có thể có. Điều cần quan tâm là bằng chứng đó có đủ sức khiến người đọc thay đổi mức độ tin tưởng vào luận điểm hay không.
 
 **3c. Đo lường** (chỉ khi bài có đo lường: khảo sát, chỉ số, biến số, giả định mô hình định lượng). Với từng khái niệm chính và cách đo nó: thước đo có đo đúng khái niệm hay đo thứ ở gần? Có thô hơn mức khái niệm cần không? Có vòng tròn (thước đo đã chứa sẵn kết luận) hoặc trùng với biến kiểm soát, biến kết quả không? Cách đo có khớp cách khái niệm được dùng trong tài liệu nền không, nếu khác thì có giải thích không? Nêu đích danh: khái niệm nào, thước đo nào, lệch ở đâu.
 
@@ -79,6 +83,7 @@ Ba việc, theo thứ tự.
 **Bẫy của người rà soát.** Đọc lại danh sách điểm yếu và loại bốn lỗi hay gặp: (1) chỉ soi phương pháp mà không hỏi câu hỏi có đáng hỏi không (đi từ đóng góp rồi mới tới phương pháp); (2) đòi bài làm theo phương pháp mình quen, thay vì xét phương pháp bài đã chọn theo mục tiêu của bài; (3) liệt kê hai mươi lỗi nhỏ mà để lọt lỗi chí mạng (luôn nêu vấn đề quan trọng nhất trước); (4) nhận xét thì nhẹ còn kết luận thì nặng, hoặc ngược lại (chốt tiêu chí và mức độ trước, rồi mới viết lời nhận xét).
 
 **Tự kiểm năm câu.**
+
 1. Nếu bài được dùng nguyên trạng, nó có làm người đọc hiểu sai điều gì không?
 2. Tác giả có xử lý được các điểm này trong một lượt sửa không? Nếu không, đó là vấn đề cốt lõi chứ không phải việc sửa.
 3. Nhận xét có đang khắt khe hơn mức vẫn đòi với một bài khác cùng loại không?

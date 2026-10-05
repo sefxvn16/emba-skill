@@ -1,61 +1,62 @@
 # Chế độ biên tập: sắp lại mạch ý bản nháp học thuật
 
-Dùng khi người dùng đưa một bản nháp (đoạn, mục hoặc cả bài) và yêu cầu sửa, viết lại, làm cho mạch lạc hoặc trôi chảy hơn. Khác chế độ rà soát: rà soát chỉ chỉ ra điểm yếu, chế độ này viết lại.
+Dùng khi người dùng đưa một bản dự thảo (đoạn, mục hoặc cả bài) và yêu cầu sửa, viết lại, làm cho nội dung mạch lạc hoặc trôi chảy hơn. Khác với chế độ rà soát: rà soát chỉ chỉ ra điểm yếu, còn chế độ này trực tiếp viết lại nội dung.
 
-Ý phương pháp tham khảo từ prose-revision-skill của Gabberflast (https://github.com/gabberflast/prose-revision-skill-ht-anthony-lee-zhang, giấy phép MIT); skill đó phát triển từ một skill prose-revision của Anthony Lee Zhang. Nội dung ở đây viết lại bằng tiếng Việt cho bối cảnh học thuật.
+Ý tưởng của phương pháp này được tham khảo một phần từ prose-revision-skill của Gabberflast, giấy phép MIT và skill prose-revision của Anthony Lee Zhang. Được chỉnh sửa lại để phù hợp với nhu cầu và tư duy làm việc của bản thân tác giả.
 
 ## Nguyên tắc
 
-1. **Mạnh tay với cấu trúc, giữ nguyên nội dung.** Được đổi thứ tự ý, ranh giới câu, chỗ chuyển ý, hình dạng đoạn. Không thêm ý, không bớt ý, không đổi độ mạnh của khẳng định. Chỉ thêm, bớt hoặc chuyển một ý ra khỏi đoạn khi đoạn không chạy được nếu thiếu bước đó, và khi làm thì nói rõ.
-2. **Giữ nguyên mức khẳng định.** "Gợi ý" không thành "cho thấy". Chữ "có thể" đang gánh nghĩa thì giữ. Câu gọn hơn không được làm luận điểm mạnh hơn.
-3. **Giữ giọng và người đọc.** Xác định người đọc (giảng viên, hội đồng, đồng nghiệp), mục đích và giọng của bài từ chính bản nháp. Hỏi lại chỉ khi sự mơ hồ ảnh hưởng đáng kể mà không suy ra được từ văn bản. Mục tiêu là ý của tác giả được nói rõ hơn, không phải một văn phong "sạch" chung phủ lên.
-4. **Bản nháp đã ổn thì nói là đã ổn** và chỉ sửa tối thiểu. Không tạo chỉnh sửa cho có việc.
-5. **Câu vụng thường là triệu chứng.** Một câu nghe vụng thường vì nó gánh hai việc, câu trước chưa dọn đường, hoặc thứ tự các đơn vị chưa hợp lý. Sửa nguyên nhân, đừng dừng ở sửa chữ.
-6. **Có bản góp ý đi kèm:** mỗi chỗ sửa gắn với một góp ý. Góp ý nào người dùng không muốn sửa thì để nguyên và nói rõ. Không sửa ngoài phạm vi các góp ý đã chọn.
+1. **Mạnh tay với cấu trúc, giữ nguyên nội dung.** Có thể đổi thứ tự ý, chia hoặc gộp câu, thay chỗ chuyển ý và sắp xếp lại đoạn. Không thêm, bớt hay làm thay đổi mức độ của một khẳng định. Chỉ thêm, bớt hoặc chuyển ý sang đoạn khác khi cần để mạch văn rõ ràng; nếu làm vậy, phải nói rõ.
+2. **Giữ nguyên mức khẳng định.** “Gợi ý” không được viết thành “cho thấy”. Nếu “có thể” đang mang ý nghĩa quan trọng thì phải giữ lại. Việc viết gọn hơn không được vô tình làm luận điểm mạnh hơn bản gốc.
+3. **Giữ giọng và người đọc.** Dựa vào bản nháp để xác định người đọc (giảng viên, hội đồng, đồng nghiệp), mục đích và giọng văn. Chỉ hỏi lại khi điểm chưa rõ có thể ảnh hưởng đáng kể đến cách viết và không thể tự xác định từ văn bản. Mục tiêu là làm rõ ý của tác giả, không áp một kiểu văn phong chung lên toàn bộ bài.
+4. **Bản nháp đã ổn thì nói là đã ổn.** Chỉ sửa những chỗ thực sự cần thiết, không cố tạo ra thay đổi khi bản gốc đã phù hợp.
+5. **Câu vụng thường là dấu hiệu của vấn đề.** Một câu có thể nghe không tự nhiên vì đang gánh quá nhiều ý, câu trước chưa dẫn đủ, hoặc thứ tự các ý chưa hợp lý. Khi sửa, ưu tiên xử lý nguyên nhân thay vì chỉ thay vài từ cho câu nghe mượt hơn.
+6. **Nếu có bản góp ý đi kèm.** Mỗi chỗ sửa phải tương ứng với một góp ý cụ thể. Góp ý nào người dùng không chọn sửa thì giữ nguyên và nói rõ. Không tự ý sửa thêm những điểm nằm ngoài phạm vi góp ý đã chọn.
 
 ## Thứ tự làm
 
-1. Đọc đoạn cần sửa và đủ ngữ cảnh xung quanh để hiểu lập luận cục bộ.
-2. Nếu dài hơn một đoạn: kiểm cấu trúc lớn trước (thứ tự các mục và đoạn, mỗi đơn vị có dọn đường cho đơn vị sau không). Một đoạn dựa vào điều chỉ được thiết lập ở phần sau là lỗi mạch ý mà sửa câu không cứu được.
-3. Với từng đơn vị, xác định việc nó phải làm: nêu luận điểm, đối lập, giải thích cơ chế, nêu giới hạn, rút ra hệ quả, hay chuyển ý.
-4. Chẩn đoán mạch ý trước câu chữ. Các dấu hiệu thường gặp: ý chính bị chôn ở cuối; điều kiện hoặc giới hạn đứng trước luận điểm mà nó giới hạn; câu gánh hai việc; thiếu mối nối giữa hai ý; câu cuối đoạn thuộc về chỗ khác.
-5. Nếu cấu trúc ý là thứ cản mạch, nói vấn đề cấu trúc trước. Không lấy việc mài câu thay cho việc sắp lại.
-6. Sắp lại các ý hiện có thành trình tự hợp lý hơn. Sau đó mới làm câu chữ gọn và chính xác.
+1. Đọc đoạn cần sửa và phần ngữ cảnh xung quanh để hiểu đúng mạch lập luận.
+2. Nếu nội dung dài hơn một đoạn, kiểm tra cấu trúc lớn trước: thứ tự các mục, các đoạn và cách chúng dẫn sang nhau. Nếu một đoạn dựa vào điều chỉ được nói ở phần sau, đó là lỗi về mạch ý và sửa câu sẽ không giải quyết được.
+3. Với từng đơn vị, xác định nó đang làm nhiệm vụ gì: nêu luận điểm, đối lập, giải thích cơ chế, nêu giới hạn, rút ra hệ quả hay chuyển sang ý mới.
+4. Chẩn đoán mạch ý trước khi sửa câu chữ. Một số lỗi thường gặp là: ý chính bị đẩy xuống cuối; điều kiện hoặc giới hạn được đặt trước luận điểm mà nó giới hạn; một câu phải gánh quá nhiều việc; hai ý đứng cạnh nhau nhưng thiếu mối nối; câu cuối đoạn lại thuộc về ý khác.
+5. Nếu vấn đề nằm ở cấu trúc, nói rõ vấn đề đó trước. Không dùng việc sửa câu chữ để che một mạch lập luận chưa hợp lý.
+6. Sắp xếp lại các ý đã có theo trình tự hợp lý hơn. Sau đó mới chỉnh câu chữ cho gọn, rõ và chính xác.
 
 ## Việc cần ưu tiên
 
-- Đặt thứ tự để mỗi đơn vị dọn đường cho đơn vị kế, và đặt ý chính ở chỗ nó tổ chức được những gì theo sau.
-- Tách câu gánh nhiều việc logic. Gộp câu khi tách ra làm mạch đứt vụn.
-- Đặt điều kiện, giới hạn sau luận điểm mà nó giới hạn, trừ khi phải đứng trước mới chính xác.
-- Chỉ thêm từ nối khi quan hệ giữa hai ý đã rõ. Thay từ nối chung chung ("ngoài ra", "hơn nữa", "bên cạnh đó") bằng quan hệ thật: đối lập, cơ chế, hệ quả, ví dụ, hạn chế.
-- Với văn bản học thuật hoặc kỹ thuật, làm một lượt riêng để bảo vệ thuật ngữ, mức khẳng định, trích dẫn, số liệu.
-- Ngoại lệ duy nhất cho trích dẫn: tên tác giả được gán cho lý thuyết hoặc câu nói trích (không phải tên gọi chuẩn như định lý Bayes) đang viết họ đứng một mình thì mở rộng theo quy tắc tên tác giả ở `SKILL.md`, khi xác định chắc từ ngữ cảnh (tên lý thuyết, năm, danh mục tham khảo trong bài). Chỉ mở rộng tên, không đổi năm, nguồn hay chữ khác. Nêu các chỗ đã đổi trong phần chẩn đoán hoặc báo cáo biên tập. Không chắc thì giữ nguyên và báo.
+- Sắp xếp các đơn vị sao cho mỗi phần trước là tiền đề hoặc dẫn dắt cho phần tiếp theo. Đặt ý chính ở vị trí giúp tổ chức và dẫn dắt các ý phía sau.
+- Tách những câu đang gánh quá nhiều việc về mặt lập luận. Ngược lại, chỉ gộp câu khi việc tách ra khiến mạch văn bị vụn.
+- Đặt điều kiện hoặc giới hạn sau luận điểm mà nó giới hạn, trừ trường hợp đặt trước là cần thiết để câu chính xác.
+- Chỉ dùng từ nối khi quan hệ giữa hai ý đã rõ. Hạn chế các từ nối chung chung như “ngoài ra”, “hơn nữa”, “bên cạnh đó”; thay bằng cách thể hiện đúng quan hệ giữa các ý, chẳng hạn đối lập, cơ chế, hệ quả, ví dụ hoặc giới hạn.
+- Với văn bản học thuật hoặc kỹ thuật, cần kiểm tra riêng thuật ngữ, mức độ khẳng định, trích dẫn và số liệu để tránh làm thay đổi nội dung trong quá trình biên tập.
+- Ngoại lệ duy nhất cho trích dẫn: Với tên tác giả được gán cho một lý thuyết hoặc câu nói trích dẫn (không áp dụng cho tên gọi chuẩn như Định lý Bayes), nếu trong bản nháp chỉ ghi tên riêng và có thể xác định chắc chắn họ tên từ ngữ cảnh — chẳng hạn tên lý thuyết, năm hoặc danh mục tài liệu tham khảo — thì có thể viết đầy đủ theo quy tắc về tên tác giả trong `SKILL.md`. Chỉ mở rộng tên, không thay đổi năm, nguồn hoặc nội dung khác. Những chỗ đã thay đổi phải được nêu trong phần chẩn đoán hoặc báo cáo biên tập. Nếu không chắc, giữ nguyên và báo lại.
 
 ## Đầu ra
 
-**Đoạn ngắn:** (1) chẩn đoán ngắn điều gì đang cản mạch ý; (2) một đến ba bản sửa; (3) một dòng nêu đánh đổi, hoặc vì sao một bản là đủ. Chỉ đưa một bản khi một hướng rõ ràng tốt nhất. Có đánh đổi thật thì đưa hai hoặc ba bản, phân theo mức tái cấu trúc:
-- nhẹ: giữ thứ tự, câu gọn hơn;
-- vừa: đổi thứ tự ý, đổi trọng tâm;
-- đầy đủ: dựng lại đơn vị quanh luận điểm chính.
+**Đoạn ngắn:** (1) chẩn đoán ngắn về điểm đang cản mạch ý; (2) một đến ba bản sửa; (3) một dòng nêu đánh đổi hoặc giải thích vì sao chỉ cần một bản. Chỉ đưa một bản khi có một hướng rõ ràng tốt nhất. Nếu có đánh đổi thực sự, đưa hai hoặc ba bản, theo mức độ tái cấu trúc:
 
-**Văn bản dài hơn khoảng ba trang:** báo cáo biên tập có cấu trúc (chẩn đoán và các thay đổi xếp theo ưu tiên). Xử lý cấu trúc lớn trước, rồi đi theo từng mục, nêu trước những sửa chữa có tác dụng lớn nhất. Chỉ sửa trực tiếp khi người dùng muốn vậy.
+- nhẹ: giữ nguyên thứ tự ý, chủ yếu làm câu gọn và rõ hơn;
+- vừa: đổi thứ tự ý hoặc thay đổi trọng tâm;
+- đầy đủ: sắp xếp lại toàn bộ đơn vị dựa trên luận điểm chính.
 
-Không đưa lỗi chính tả hay ngữ pháp vặt vào, trừ khi nó ảnh hưởng tới mạch ý hoặc độ rõ.
+**Văn bản dài hơn khoảng ba trang:** lập báo cáo biên tập có cấu trúc, gồm chẩn đoán và các thay đổi được xếp theo mức độ ưu tiên. Xử lý vấn đề ở cấp độ cấu trúc trước, sau đó mới đi vào từng mục và nêu trước những sửa đổi có tác động lớn nhất. Chỉ sửa trực tiếp toàn văn khi người dùng yêu cầu.
 
-Khi người dùng yêu cầu áp dụng sửa vào file: sửa file nguồn, không sửa bản sao. Giữ ký hiệu, trích dẫn, nhãn, ghi chú của tác giả, trừ khi được yêu cầu đổi (và trừ ngoại lệ về tên tác giả ở mục "Việc cần ưu tiên").
+Không liệt kê các lỗi chính tả hoặc ngữ pháp nhỏ, trừ khi chúng ảnh hưởng đến mạch ý hoặc độ rõ của nội dung.
+
+Khi người dùng yêu cầu áp dụng sửa vào file, sửa trực tiếp file nguồn, không tạo hoặc sửa một bản sao. Giữ nguyên ký hiệu, trích dẫn, nhãn và ghi chú của tác giả, trừ khi người dùng yêu cầu thay đổi hoặc thuộc ngoại lệ về tên tác giả nêu tại mục “Việc cần ưu tiên”.
 
 ## Sau khi biên tập
 
-Nếu đây là bản giao hoàn chỉnh: áp `style-guide.md` sau khi mạch ý đã xong. File này quyết định cách sắp ý, `style-guide.md` quyết định cách diễn đạt. Khi hai bên có vẻ xung đột (ví dụ cần câu bị động theo chuẩn học thuật), giữ chuẩn học thuật.
+Nếu đây là bản hoàn chỉnh để giao, áp dụng `style-guide.md` sau khi đã xử lý xong mạch ý. Phần này quyết định cách sắp xếp và diễn đạt, còn `style-guide.md` quyết định cách viết. Nếu hai yêu cầu có vẻ mâu thuẫn, chẳng hạn cần dùng câu bị động theo chuẩn học thuật, ưu tiên chuẩn học thuật.
 
-## Ví dụ (minh họa, không lấy từ bài thật)
+## Ví dụ minh họa
 
 **Bản nháp:** "Nhìn chung, có thể nói rằng, dù dữ liệu chỉ lấy từ ba chi nhánh và còn hạn chế, tỷ lệ nghỉ việc của nhân viên mới giảm sau khi áp dụng chương trình kèm cặp, điều đáng mừng, và mức giảm này ổn định qua các quý."
 
-**Chẩn đoán:** Luận điểm chính (tỷ lệ nghỉ việc giảm và ổn định) nằm cuối câu, sau một lời mở và một điều kiện. Điều kiện về dữ liệu đứng trước điều nó giới hạn. Cụm "điều đáng mừng" là cảm nhận, không làm việc gì trong lập luận.
+**Chẩn đoán:** Luận điểm chính - tỷ lệ nghỉ việc giảm và mức giảm ổn định - bị đặt ở cuối câu, sau phần mở đầu và điều kiện. Giới hạn về dữ liệu cũng được đặt trước luận điểm mà nó giới hạn. Cụm “điều đáng mừng” chỉ thể hiện cảm nhận, không đóng góp cho lập luận.
 
-**Bản sửa** (một bản là đủ, hướng sửa rõ): "Tỷ lệ nghỉ việc của nhân viên mới giảm sau khi áp dụng chương trình kèm cặp và giữ mức giảm qua các quý. Dữ liệu chỉ lấy từ ba chi nhánh nên kết luận còn hạn chế."
+**Bản sửa** (một bản là đủ vì hướng sửa khá rõ): "Tỷ lệ nghỉ việc của nhân viên mới giảm sau khi áp dụng chương trình kèm cặp và giữ mức giảm qua các quý. Dữ liệu chỉ lấy từ ba chi nhánh nên kết luận còn hạn chế."
 
-**Vì sao:** Luận điểm đứng đầu và tổ chức đoạn. Giới hạn đứng sau, giới hạn đúng điều người đọc vừa nhận. Cụm cảm nhận bị bỏ và nói rõ là bỏ vì không thêm thông tin. Mức khẳng định giữ nguyên: "giảm", "ổn định" không bị làm mềm hay làm mạnh thêm.
+**Vì sao:** Đưa luận điểm lên đầu để nó làm trục cho đoạn. Đưa giới hạn về dữ liệu ra sau để giới hạn đúng điều vừa được nêu. Bỏ “điều đáng mừng” vì cụm này không thêm thông tin cho lập luận. Mức khẳng định được giữ nguyên: “giảm” và “ổn định” không bị làm yếu hoặc mạnh hơn.
 
-Cùng cách chẩn đoán áp ở cấp lớn hơn: luận điểm bị chôn cuối đoạn, hay đoạn đặt trước đoạn nó dựa vào, là cùng một lỗi ở quy mô lớn hơn.
+Cách chẩn đoán này cũng áp dụng ở quy mô lớn hơn: nếu luận điểm chính bị chôn ở cuối đoạn, hoặc một đoạn đặt trước đoạn mà nó phụ thuộc vào, thì đó vẫn là cùng một lỗi về mạch ý, chỉ khác ở quy mô.
